@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = "marcel@vernix.org"
   s.executables = ["s3sh"]
   s.extra_rdoc_files = ["README.rdoc", "COPYING", "INSTALL"]
-  s.files = ["COPYING", "INSTALL", "README.rdoc", "README.erb" "bin/s3sh"]
+  s.files = ["COPYING", "INSTALL", "README.rdoc", "README.erb", "bin/s3sh"]
   s.homepage = "http://amazon.rubyforge.org"
   s.rdoc_options = ["--title", "AWS::S3 -- Support for Amazon S3's REST api", "--main", "README.rdoc", "--line-numbers", "--inline-source"]
   s.rubyforge_project = "amazon"
