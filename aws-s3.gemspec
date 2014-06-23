@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.description = "Client library for Amazon's Simple Storage Service's REST API"
   s.email = "marcel@vernix.org"
   s.executables = ["s3sh"]
-  s.extra_rdoc_files = ["README", "COPYING", "INSTALL"]
-  s.files = ["COPYING", "INSTALL", "README", "bin/s3sh"]
+  s.extra_rdoc_files = ["README.rdoc", "COPYING", "INSTALL"]
+  s.files = ["COPYING", "INSTALL", "README.rdoc", "README.erb" "bin/s3sh"]
   s.homepage = "http://amazon.rubyforge.org"
-  s.rdoc_options = ["--title", "AWS::S3 -- Support for Amazon S3's REST api", "--main", "README", "--line-numbers", "--inline-source"]
+  s.rdoc_options = ["--title", "AWS::S3 -- Support for Amazon S3's REST api", "--main", "README.rdoc", "--line-numbers", "--inline-source"]
   s.rubyforge_project = "amazon"
   s.rubygems_version = "2.2.2"
   s.summary = "Client library for Amazon's Simple Storage Service's REST API"
